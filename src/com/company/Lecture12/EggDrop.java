@@ -5,9 +5,9 @@ public class EggDrop {
         int floors = 10;
         int eggs = 2;
         Integer[][] mem = new Integer[floors+1][eggs+1];
-        System.out.println(eggDrop(floors,2));
-        System.out.println(eggDropDP(floors,2,mem));
-        System.out.println(eggDropDPitr(floors,2,mem));
+        System.out.println(eggDrop(floors,eggs));
+        System.out.println(eggDropDP(floors,eggs,mem));
+        System.out.println(eggDropDPitr(floors,eggs,mem));
 
     }
 

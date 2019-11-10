@@ -33,7 +33,7 @@ public class Searching {
             if ( target ==  nums[mid]){
                 return mid;
             }
-            else if( target < mid){
+            else if( target < nums[mid]){
                 end = mid-1;
             }
             else {

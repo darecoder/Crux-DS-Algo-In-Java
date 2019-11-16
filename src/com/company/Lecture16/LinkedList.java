@@ -136,7 +136,6 @@ public class LinkedList {
                 // shift from h1
                 list.insertLast(h1.value);
                 h1 = h1.next;
-
             }else{
                 // shift from h2
                 list.insertLast(h2.value);

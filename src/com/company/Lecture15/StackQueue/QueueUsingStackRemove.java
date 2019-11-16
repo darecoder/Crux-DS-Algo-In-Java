@@ -1,7 +1,5 @@
 package com.company.Lecture15.StackQueue;
 
-import jdk.nashorn.internal.ir.IdentNode;
-
 import java.util.Stack;
 
 public class QueueUsingStackRemove {

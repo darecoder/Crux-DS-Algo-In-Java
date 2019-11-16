@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class TableUsingArray <K, V> {
 
-    private ArrayList<Node> array;  //using arraylist because working in generic mode
+    private ArrayList<Node> array;  //using Arraylist because working in generic mode
 
     private static final int DEFAULT_SIZE = 20;
 

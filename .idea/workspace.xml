@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Questions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Questions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture24/TestClass.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
+  <component name="RunManager" selected="Application.Questions">
     <configuration name="Daily_CodeByte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.Doubts.Daily_CodeByte" />
       <module name="Crux" />
@@ -119,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Doubts.Main" />
+    <configuration name="Questions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture20.Questions" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.HackerBlocks.*" />
+          <option name="PATTERN" value="com.company.Lecture20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Daily_CodeByte" />
       <item itemvalue="Application.LongPallindromeSubseq" />
       <item itemvalue="Application.Sudoku" />
       <item itemvalue="Application.TestClass" />
+      <item itemvalue="Application.Questions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Questions" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Sudoku" />
         <item itemvalue="Application.Daily_CodeByte" />
         <item itemvalue="Application.LongPallindromeSubseq" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +208,9 @@
       <workItem from="1573876857668" duration="3145000" />
       <workItem from="1573886555599" duration="1601000" />
       <workItem from="1573914060614" duration="64000" />
-      <workItem from="1573946669067" duration="972000" />
+      <workItem from="1573946669067" duration="2782000" />
+      <workItem from="1574054049862" duration="633000" />
+      <workItem from="1574461655492" duration="1296000" />
     </task>
     <servers />
   </component>

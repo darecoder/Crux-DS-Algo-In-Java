@@ -35,7 +35,7 @@ public class AdjMapWeightGraph<E> {
         ArrayList<Edge> list = new ArrayList<Edge>();
         for(Vertex start : vertices.values()){
             for(Vertex end : start.neighbours.keySet()){
-                Integer weight = start.neighbours.get(end.value);
+                Integer weight = start.neighbours.get(end);
                 list.add(new Edge(start, end, weight));
             }
         }

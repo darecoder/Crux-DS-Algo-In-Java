@@ -8,16 +8,14 @@ public class AdjMapWeightGraph<E> {
 
     private class Vertex{
         E value;
-        Map<E, Vertex> neighbours = new HashMap<E, Vertex>();
-        Map<E, Integer> weights = new HashMap<E, Integer>();
+        Map<Vertex, Integer> neighbours = new HashMap<Vertex, Integer>();
 
         public Vertex(E value) {
             this.value = value;
         }
 
         public void addNeighbour(Vertex vertex, Integer weight){
-            neighbours.put(vertex.value,vertex);
-            weights.put(vertex.value,weight);
+            neighbours.put(vertex, weight);
         }
     }
 
@@ -36,8 +34,8 @@ public class AdjMapWeightGraph<E> {
     public Integer kruskal(){
         ArrayList<Edge> list = new ArrayList<Edge>();
         for(Vertex start : vertices.values()){
-            for(Vertex end : start.neighbours.values()){
-                Integer weight = start.weights.get(end.value);
+            for(Vertex end : start.neighbours.keySet()){
+                Integer weight = start.neighbours.get(end.value);
                 list.add(new Edge(start, end, weight));
             }
         }
@@ -63,7 +61,6 @@ public class AdjMapWeightGraph<E> {
     }
 
     public int prims(){
-
         Vertex start = vertices.values().iterator().next();
         Set<Vertex> visited = new HashSet<Vertex>();
 
@@ -75,11 +72,10 @@ public class AdjMapWeightGraph<E> {
         });
 
         visited.add(start);
-        for (Vertex end : start.neighbours.values()){
-            int weight = start.weights.get(end.value);
+        for (Vertex end : start.neighbours.keySet()){
+            int weight = start.neighbours.get(end.value);
             queue.add(new Edge(start, end, weight));
         }
-
         int total = 0;
         while (!queue.isEmpty()){
             Edge edge = queue.remove();
@@ -87,16 +83,15 @@ public class AdjMapWeightGraph<E> {
                 total += edge.weight;
 
                 Vertex temp_s = edge.end;
-                for (Vertex temp_e : temp_s.neighbours.values()){
+                for (Vertex temp_e : temp_s.neighbours.keySet()){
                     if (!visited.contains(temp_e)){
-                        int weight = temp_s.weights.get(temp_e.value);
+                        int weight = temp_s.neighbours.get(temp_e.value);
                         queue.add(new Edge(temp_s, temp_e, weight));
 
                     }
                 }
             }
         }
-
         return total;
     }
 
@@ -170,7 +165,7 @@ public class AdjMapWeightGraph<E> {
             Vertex top = stack.pop();
             System.out.print(top.value + " ");
 
-            for (Vertex vertex : top.neighbours.values()){
+            for (Vertex vertex : top.neighbours.keySet()){
                 if(!set.contains(vertex)){
                     stack.push(vertex);
                     set.add(vertex);

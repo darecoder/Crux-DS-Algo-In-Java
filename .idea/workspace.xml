@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Questions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Questions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture24/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554039257257" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Competitive-Programming-CB" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -93,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Questions">
+  <component name="RunManager" selected="Application.GraphClient">
     <configuration name="Daily_CodeByte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.Doubts.Daily_CodeByte" />
       <module name="Crux" />
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongPallindromeSubseq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture24.LongPallindromeSubseq" />
+    <configuration name="GraphClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture22.GraphClient" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture24.*" />
+          <option name="PATTERN" value="com.company.Lecture22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,18 +161,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Daily_CodeByte" />
-      <item itemvalue="Application.LongPallindromeSubseq" />
       <item itemvalue="Application.Sudoku" />
       <item itemvalue="Application.TestClass" />
       <item itemvalue="Application.Questions" />
+      <item itemvalue="Application.GraphClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphClient" />
         <item itemvalue="Application.Questions" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Sudoku" />
         <item itemvalue="Application.Daily_CodeByte" />
-        <item itemvalue="Application.LongPallindromeSubseq" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +210,9 @@
       <workItem from="1573914060614" duration="64000" />
       <workItem from="1573946669067" duration="2782000" />
       <workItem from="1574054049862" duration="633000" />
-      <workItem from="1574461655492" duration="1296000" />
+      <workItem from="1574461655492" duration="2574000" />
+      <workItem from="1574551535714" duration="804000" />
+      <workItem from="1574601468205" duration="803000" />
     </task>
     <servers />
   </component>

@@ -15,7 +15,7 @@ public class AdjMapWeightGraph<E> {
         }
 
         public void addNeighbour(Vertex vertex, Integer weight){
-            neighbours.put(vertex, weight);
+            neighbours.put(vertex,weight);
         }
     }
 
@@ -73,7 +73,7 @@ public class AdjMapWeightGraph<E> {
 
         visited.add(start);
         for (Vertex end : start.neighbours.keySet()){
-            int weight = start.neighbours.get(end.value);
+            int weight = start.neighbours.get(end);
             queue.add(new Edge(start, end, weight));
         }
         int total = 0;
@@ -83,9 +83,10 @@ public class AdjMapWeightGraph<E> {
                 total += edge.weight;
 
                 Vertex temp_s = edge.end;
+                visited.add(temp_s);
                 for (Vertex temp_e : temp_s.neighbours.keySet()){
                     if (!visited.contains(temp_e)){
-                        int weight = temp_s.neighbours.get(temp_e.value);
+                        int weight = temp_s.neighbours.get(temp_e);
                         queue.add(new Edge(temp_s, temp_e, weight));
 
                     }

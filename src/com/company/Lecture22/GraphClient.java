@@ -17,5 +17,6 @@ public class GraphClient {
 
 //        graph.DFT(1);
         System.out.println(graph.kruskal());
+//        System.out.println(graph.prims());
     }
 }

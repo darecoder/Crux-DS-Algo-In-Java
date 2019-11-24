@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid13861.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Vertex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/GraphClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/GraphClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/GraphClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/GraphClient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +219,7 @@
       <workItem from="1574054049862" duration="633000" />
       <workItem from="1574461655492" duration="2574000" />
       <workItem from="1574551535714" duration="804000" />
-      <workItem from="1574601468205" duration="803000" />
+      <workItem from="1574601468205" duration="2982000" />
     </task>
     <servers />
   </component>

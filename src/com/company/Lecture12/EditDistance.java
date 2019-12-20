@@ -67,7 +67,8 @@ public class EditDistance {
                     if(f.charAt(flen-1) == s.charAt(slen-1)){
                         mem[flen][slen] = mem[flen-1][slen-1];
                     }else{
-                        mem[flen][slen] = 1+ Math.min(mem[flen-1][slen],Math.min(mem[flen][slen-1],mem[flen-1][slen-1]));
+                        mem[flen][slen] = 1+ Math.min(mem[flen-1][slen],
+                                Math.min(mem[flen][slen-1],mem[flen-1][slen-1]));
                     }
                 }
             }

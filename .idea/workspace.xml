@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid13861.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Vertex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/GraphClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/GraphClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/GraphClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/GraphClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/EditDistance.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +57,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554039257257" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Competitive-Programming-CB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -219,7 +211,10 @@
       <workItem from="1574054049862" duration="633000" />
       <workItem from="1574461655492" duration="2574000" />
       <workItem from="1574551535714" duration="804000" />
-      <workItem from="1574601468205" duration="2982000" />
+      <workItem from="1574601468205" duration="3420000" />
+      <workItem from="1574679833822" duration="137000" />
+      <workItem from="1575173596362" duration="220000" />
+      <workItem from="1575447455597" duration="528000" />
     </task>
     <servers />
   </component>

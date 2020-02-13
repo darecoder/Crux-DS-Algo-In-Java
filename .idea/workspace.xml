@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/META-INF/Crux.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/EditDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/EditDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture11/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture11/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture11/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture11/QuickSort.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,17 +54,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TgLaUYUUo0dsUR5ZC8eCkcjaMt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554039257257" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Competitive-Programming-CB" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,25 +88,13 @@
       <recent name="com.company.Doubts" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.GraphClient">
-    <configuration name="Daily_CodeByte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Doubts.Daily_CodeByte" />
+  <component name="RunManager" selected="Application.HeapClient">
+    <configuration name="GraphClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture22.GraphClient" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.HackerBlocks.*" />
+          <option name="PATTERN" value="com.company.Lecture22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture22.GraphClient" />
+    <configuration name="HeapClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture19.HeapClient" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture22.*" />
+          <option name="PATTERN" value="com.company.Lecture19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,21 +155,33 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Daily_CodeByte" />
       <item itemvalue="Application.Sudoku" />
       <item itemvalue="Application.TestClass" />
       <item itemvalue="Application.Questions" />
       <item itemvalue="Application.GraphClient" />
+      <item itemvalue="Application.HeapClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapClient" />
         <item itemvalue="Application.GraphClient" />
         <item itemvalue="Application.Questions" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Sudoku" />
-        <item itemvalue="Application.Daily_CodeByte" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -215,6 +223,12 @@
       <workItem from="1574679833822" duration="137000" />
       <workItem from="1575173596362" duration="220000" />
       <workItem from="1575447455597" duration="528000" />
+      <workItem from="1576820480227" duration="97000" />
+      <workItem from="1576827824644" duration="893000" />
+      <workItem from="1576844704673" duration="4000" />
+      <workItem from="1576907960403" duration="1248000" />
+      <workItem from="1581365217086" duration="1366000" />
+      <workItem from="1581372716792" duration="2263000" />
     </task>
     <servers />
   </component>
@@ -233,5 +247,46 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="178" key="FileChooserDialogImpl" timestamp="1581366357863">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576827843126" />
+    <state x="549" y="178" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1581366357863" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1576917236604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576917236604" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1576917236604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576917236604" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1576917236604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576917236604" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1576917236604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576917236604" />
+    <state x="279" y="78" key="SettingsEditor" timestamp="1581394737801">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="279" y="78" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1581394737801" />
+    <state x="477" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1581372719672">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576827835168" />
+    <state x="477" y="251" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581372719672" />
+    <state x="209" y="13" key="new project wizard" timestamp="1581395754604">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="209" y="38" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1576837893310" />
+    <state x="209" y="13" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1581395754604" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1581373805628">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1581373805628" />
   </component>
 </project>

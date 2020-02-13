@@ -24,20 +24,14 @@ public class QuickSort {
     }
 
     public static int pivot(int[] nums,int start,int end){
-//        int p = start;
-//
-//        ArrayIntro.swap(nums,p,end);
-
-        int p = end;
         int j=start;
-
         for (int i = start; i <= end; i++) {
-            if(nums[i] < nums[p]) {
+            if(nums[i] < nums[end]) {
                 ArrayIntro.swap(nums, i, j);
                 j++;
             }
         }
-        ArrayIntro.swap(nums,p,j);
+        ArrayIntro.swap(nums, end,j);
         return j;
     }
 }

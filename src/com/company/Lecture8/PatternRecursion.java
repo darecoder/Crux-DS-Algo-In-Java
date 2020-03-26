@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class PatternRecursion {
     public static void main(String[] args) {
-        pattern1(5,0);
+//        pattern1(5,0);
         pattern2(5,0);
 //        int[] nums = {2,7,1,0,4,8,3};
 //        bubbleSort(nums,nums.length-1,0);

@@ -40,9 +40,9 @@ public class CustomHashTable<K, V> {
     private void rehash() {
         ArrayList<LinkedList<Node>> old = array;
 
-        array = new ArrayList<LinkedList<Node>>();
+        array = new ArrayList<>();
         for (int i = 0; i < old.size() * 2; i++) {
-            array.add(new LinkedList<Node>());
+            array.add(new LinkedList<>());
         }
         size = 0;
         for(LinkedList<Node> list : old){

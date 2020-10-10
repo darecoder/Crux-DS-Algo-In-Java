@@ -23,14 +23,11 @@ public class RecursionExamples {
     }
 
     public static int factorial(int n){
-
         if(n == 0){
             return 1;
         }
 
-        int res = 1;
-        res = n * factorial(n-1);
-        return res;
+        return n * factorial(n-1);
     }
 
     public static int fibo(int n){

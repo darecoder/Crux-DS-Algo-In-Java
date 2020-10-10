@@ -2,6 +2,8 @@ package com.company.Lecture22;
 
 import java.util.*;
 
+import static java.util.Comparator.*;
+
 public class AdjMapWeightGraph<E> {
 
     private Map<E, Vertex> vertices = new HashMap<E, Vertex>();
@@ -40,14 +42,16 @@ public class AdjMapWeightGraph<E> {
             }
         }
 
-        Collections.sort(list, new Comparator<Edge>() {
-            @Override
-            public int compare(Edge o1, Edge o2) {
-                return o1.weight - o2.weight;
-            }
-        });
+//        Collections.sort(list, new Comparator<Edge>() {
+//            @Override
+//            public int compare(Edge o1, Edge o2) {
+//                return o1.weight - o2.weight;
+//            }
+//        });
 
 //        Collections.sort(list, (o1, o2) -> o1.weight - o2.weight);    Lambda Expressions
+
+        list.sort(comparingInt(o -> o.weight));
 
         Map<Vertex, Vertex> parents = generateParents();
         int total = 0;
@@ -64,12 +68,7 @@ public class AdjMapWeightGraph<E> {
         Vertex start = vertices.values().iterator().next();
         Set<Vertex> visited = new HashSet<Vertex>();
 
-        PriorityQueue<Edge> queue = new PriorityQueue<Edge>(new Comparator<Edge>() {
-            @Override
-            public int compare(Edge o1, Edge o2) {
-                return o1.weight - o2.weight;
-            }
-        });
+        PriorityQueue<Edge> queue = new PriorityQueue<Edge>(comparingInt(o -> o.weight));
 
         visited.add(start);
         for (Vertex end : start.neighbours.keySet()){
@@ -145,7 +144,7 @@ public class AdjMapWeightGraph<E> {
         first = find(first, parents);
         second = find(second, parents);
 
-        if(first != second){
+        if(first != second) {
             parents.put(first, second);
             return true;
         }
@@ -173,5 +172,79 @@ public class AdjMapWeightGraph<E> {
                 }
             }
         }
+    }
+
+    public class DjPair implements Comparable<DjPair> {
+        int cost;
+        E connectingVertex;
+        E endVertex;
+
+        DjPair(E endVertex, int cost, E acquirer) {
+            this.connectingVertex = acquirer;
+            this.endVertex = endVertex;
+            this.cost = cost;
+        }
+
+        @Override
+        public int compareTo(DjPair o) {
+            return this.cost - o.cost;
+        }
+    }
+
+    public void dijkstra(E source) {
+        HashMap<E, DjPair> map = new HashMap<>();
+        PriorityQueue<DjPair> minheap = new PriorityQueue<>();
+        Set<E> allvertices = this.vertices.keySet();
+
+        /* Saare vertices pe traverse kar rhe hain and if it is the same
+         as source toh usme cost 0 daal rehe hain nhi toh infinity */
+        for (E vertex : allvertices) {
+            DjPair d;
+            if (vertex.equals(source)) {
+                d = new DjPair(vertex, 0, null);
+            } else {
+                d = new DjPair(vertex, Integer.MAX_VALUE, null);
+            }
+
+            //saare DjPair of vertices heap mein add kar de rhe hain
+            minheap.add(d);
+            map.put(vertex, d);
+        }
+
+        //Heap mein traverse kar rhe hain
+        while (!minheap.isEmpty()) {
+            //Minimum DjPair on the basis of cost remove karenge
+            DjPair current = minheap.remove();
+            map.remove(current.endVertex);
+
+            /* Us pair ke 2nd vertex ya keh lo connected
+             vertex ko aur uski cost ko print kar dia */
+            System.out.println(current.endVertex +"->"+current.cost);
+
+            /* Ab jis vertex ko print kia uske saare neighbouring vertex
+            ki cost jaake update kar do, means ki agar mai uski neighbouring
+             vertex pe is vertex ke through jaaun toh kya cost hogi */
+            Set<Vertex> neighbour = vertices.get(current.endVertex).neighbours.keySet();
+            for (Vertex padosi : neighbour) {
+                if (map.containsKey(padosi.value)) {
+                    DjPair pair = map.get(padosi.value);
+                    int oldcost = pair.cost;
+                    /* source se current vertex tak ka cost + current vertex se padosi tak jaane ka cost */
+                    int newcost = current.cost + vertices.get(current.endVertex).neighbours.get(padosi);
+                    if (newcost < oldcost) {
+                        /* Heap se pichla cost vala pair remove kar
+                        do kyunki naya cost jaada chhota hai ab */
+                        minheap.remove(map.get(padosi.value));
+
+                        // Naya pair banao naye cost ke saath aur heap mein add kar do
+                        pair.cost = newcost;
+                        pair.connectingVertex = current.endVertex;
+                        map.put(padosi.value, pair);
+                        minheap.add(pair);
+                    }
+                }
+            }
+        }
+
     }
 }

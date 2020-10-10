@@ -2,8 +2,7 @@ package com.company.Lecture22;
 
 import java.util.*;
 
-public class
-AdjMapGraph<E> {
+public class AdjMapGraph<E> {
 
     private Map<E, Vertex> vertices = new HashMap<E, Vertex>();
 

@@ -231,7 +231,7 @@ public class BST <T extends Comparable<T>> {
         return makeSortedList(this.root,list);
     }
 
-    private LinkedListGeneric<T> makeSortedList(Node node, LinkedListGeneric list) {
+    private LinkedListGeneric<T> makeSortedList(Node node, LinkedListGeneric<T> list) {
         if(node == null){
             return list;
         }

@@ -1,168 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Lecture13/CheckParanthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Arrays_2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Arrays_2D.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Dictionary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Maze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/MazeBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/MazeBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/NQueens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/NQueens.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture11/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture11/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture11/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture11/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture11/SumDivideArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture11/SumDivideArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/CountPallindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/CountPallindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/DP_Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/DP_Intro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/Dice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/EditDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/EditDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/EggDrop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/EggDrop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/LongSubseq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/LongSubseq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/MazeDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/MazeDP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/ZeroOneKnapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/ZeroOneKnapsack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/DynamicStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/DynamicStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/QueueClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/QueueClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/StackClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/StackClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/CircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/CircularQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/DynamicCircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/DynamicCircularQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/inheritance/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/inheritance/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/inheritance/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/inheritance/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/inheritance/Maruti.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/inheritance/Maruti.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/inheritance/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/inheritance/Vehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/CBStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/CBStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/CBTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/CBTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/CB_TA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/CB_TA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/CarChild.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/CarChild.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/Brake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/Brake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/Engine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/GenericBrake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/GenericBrake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/NitroEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/NitroEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/PetrolEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/PetrolEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/Steering.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Composition/Steering.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Other/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Other/Sample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Other/SampleChild.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Other/SampleChild.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/StackClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/StackClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/StackQueue/QueueUsingStackInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/StackQueue/QueueUsingStackInsert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/StackQueue/QueueUsingStackRemove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/StackQueue/QueueUsingStackRemove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/StackQueue/SampleStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/StackQueue/SampleStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Students.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/TA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/TA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/LinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/QueueStack/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/QueueStack/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/QueueStack/StackUsingQueuePop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/QueueStack/StackUsingQueuePop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/QueueStack/StackUsingQueuePush.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/QueueStack/StackUsingQueuePush.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/BinaryTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/BinaryTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/LinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/LinkedListGeneric$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/LinkedListGeneric$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/LinkedListGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/LinkedListGeneric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/ListClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/ListClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/TreeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/TreeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BST$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BSTClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BSTClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BSTClientNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BSTClientNew.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BinaryTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BinaryTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BinaryTreeGeneric$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BinaryTreeGeneric$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BinaryTreeGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BinaryTreeGeneric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/GenericClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/GenericClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/TreeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/TreeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/Greedy/KnapSack$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/Greedy/KnapSack$Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/Greedy/KnapSack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/Greedy/KnapSack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/HeapClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/HeapClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/PQClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture19/PQClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture2/Leap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture2/Leap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture2/Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture2/Loop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashSet$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashSet$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashTable$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashTable$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Questions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Questions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/SetClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/SetClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/TableUsingArray$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/TableUsingArray$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/TableUsingArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/TableUsingArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/TableUsingList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/TableUsingList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/TableUsingList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/TableUsingList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/AdjListGraph$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/AdjListGraph$Vertex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/AdjListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/AdjListGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/EdgeListGraph$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/EdgeListGraph$Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/EdgeListGraph$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/EdgeListGraph$Vertex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/EdgeListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/EdgeListGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/GraphClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/GraphClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapGraph$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapGraph$Vertex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Edge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Vertex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/GraphClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/GraphClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture23/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture23/CustomException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture23/ExceptionClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture23/ExceptionClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture23/ScannerExmple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture23/ScannerExmple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture23/Sudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture23/Sudoku.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture23/ThreadExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture23/ThreadExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture24/JobSequence$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture24/JobSequence$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture24/JobSequence$Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture24/JobSequence$Job.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture24/JobSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture24/JobSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture24/LongPallindromeSubseq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture24/LongPallindromeSubseq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture3/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture3/Converter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture3/FnExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture3/FnExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture3/Inverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture3/Inverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/BinToDec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/BinToDec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Count.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Count.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/DecToBin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/DecToBin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Hollow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Hollow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/HollowRhom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/HollowRhom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Mirror.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Mirror.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/OctToBin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/OctToBin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture5/ArrayIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture5/ArrayIntro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture5/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture5/Searching.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture5/Searching.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture5/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture5/Sorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/ArrayExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/ArrayExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/ArrayListExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/ArrayListExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/Sorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/StringBuilderExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/StringBuilderExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/StringIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/StringIntro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/SubstringIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture6/SubstringIntro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/Bitwise_Examples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/Bitwise_Examples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/BuilderExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/BuilderExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/Pattern_Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/Pattern_Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/RecursionIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/RecursionIntro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture8/ArrayRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture8/ArrayRecursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture8/PatternRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture8/PatternRecursion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture8/RecursionExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture8/RecursionExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture9/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture9/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture9/CountSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture9/CountSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture9/SubSeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture9/SubSeq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture20/CustomHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture20/CustomHashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture4/Mirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture4/Mirror.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture8/PatternRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture8/PatternRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture18/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture18/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture21/AdjListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture21/AdjListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture8/RecursionExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture8/RecursionExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture9/SubSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture9/SubSeq.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,33 +71,22 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>String</find>
-      <find>int</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>T</replace>
-      <replace>Integer</replace>
-      <replace>long</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TgLaUYUUo0dsUR5ZC8eCkcjaMt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554039257257" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../first" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -244,13 +109,13 @@
       <recent name="com.company.Doubts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumDivideArray">
-    <configuration name="HeapClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture19.HeapClient" />
+  <component name="RunManager" selected="Application.CheckParanthesis">
+    <configuration name="CheckParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture13.CheckParanthesis" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture19.*" />
+          <option name="PATTERN" value="com.company.Lecture13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture8.PatternRecursion" />
+    <configuration name="SubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture9.SubSeq" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture8.*" />
+          <option name="PATTERN" value="com.company.Lecture9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,34 +176,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HeapClient" />
-      <item itemvalue="Application.PatternRecursion" />
+      <item itemvalue="Application.CheckParanthesis" />
       <item itemvalue="Application.HollowRhom" />
       <item itemvalue="Application.Mirror" />
+      <item itemvalue="Application.SubSeq" />
       <item itemvalue="Application.SumDivideArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckParanthesis" />
+        <item itemvalue="Application.SubSeq" />
         <item itemvalue="Application.SumDivideArray" />
         <item itemvalue="Application.Mirror" />
         <item itemvalue="Application.HollowRhom" />
-        <item itemvalue="Application.PatternRecursion" />
-        <item itemvalue="Application.HeapClient" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -398,91 +252,57 @@
       <workItem from="1584713772857" duration="584000" />
       <workItem from="1585038142371" duration="68000" />
       <workItem from="1585211886346" duration="873000" />
-      <workItem from="1585245766103" duration="314000" />
+      <workItem from="1585245766103" duration="1976000" />
+      <workItem from="1585250059741" duration="7000" />
+      <workItem from="1586356506215" duration="769000" />
+      <workItem from="1586676778725" duration="1501000" />
+      <workItem from="1586779783969" duration="92000" />
+      <workItem from="1586779905189" duration="2001000" />
+      <workItem from="1587192396896" duration="2595000" />
+      <workItem from="1587472913768" duration="1301000" />
+      <workItem from="1587974036435" duration="1773000" />
+      <workItem from="1587978217793" duration="1149000" />
+      <workItem from="1588096096634" duration="222000" />
+      <workItem from="1588576843440" duration="599000" />
+      <workItem from="1588661022818" duration="791000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="834" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581744849260">
+    <state x="723" y="253" width="539" height="598" key="FileChooserDialogImpl" timestamp="1599676436061">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="834" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581744849260" />
-    <state x="729" y="244" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582695177322">
+    <state x="723" y="253" width="539" height="598" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1599676436061" />
+    <state width="1785" height="249" key="GridCell.Tab.0.bottom" timestamp="1600002790324">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576827843126" />
-    <state x="549" y="178" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1581592541186" />
-    <state x="729" y="244" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582695177322" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1582661762856">
+    <state width="1785" height="249" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600002790324" />
+    <state width="1785" height="249" key="GridCell.Tab.0.center" timestamp="1600002790324">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576917236604" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582661762856" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1582661762854">
+    <state width="1785" height="249" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600002790324" />
+    <state width="1785" height="249" key="GridCell.Tab.0.left" timestamp="1600002790324">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576917236604" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582661762854" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1582661762853">
+    <state width="1785" height="249" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600002790324" />
+    <state width="1785" height="249" key="GridCell.Tab.0.right" timestamp="1600002790324">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576917236604" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582661762853" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1582661762855">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576917236604" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582661762855" />
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1581770706609">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581770706609" />
-    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1581770706608">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581770706608" />
-    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1581770706608">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581770706608" />
-    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1581770706608">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581770706608" />
-    <state x="279" y="78" key="SettingsEditor" timestamp="1581394737801">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="279" y="78" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1581394737801" />
-    <state x="642" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1582695158763">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576827835168" />
-    <state x="477" y="251" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581372719672" />
-    <state x="642" y="333" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582695158763" />
-    <state x="209" y="13" key="new project wizard" timestamp="1581395754604">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="209" y="38" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1576837893310" />
-    <state x="209" y="13" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1581395754604" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1581373805628">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1581373805628" />
+    <state width="1785" height="249" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600002790324" />
   </component>
 </project>

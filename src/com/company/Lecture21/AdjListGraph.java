@@ -217,10 +217,7 @@ public class AdjListGraph <E> {
 
     public boolean isConnected(){
         List<LinkedList<E>> list = this.connectedComponent();
-        if(list.size() == 1){
-            return true;
-        }
-        return false;
+        return list.size() < 2;
     }
 
     public boolean isCyclic(E start){

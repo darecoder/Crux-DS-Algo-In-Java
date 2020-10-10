@@ -1,12 +1,14 @@
 package com.company.Lecture9;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SubSeq {
     public static void main(String[] args) {
         String chars = "abc";
         ArrayList<String> list = new ArrayList<String>();
-        subseqList("", chars, list);
+//        subseqList("", chars, list);
+        System.out.println(subseqlist("", chars));
         System.out.println(list);
 //        subseq("", chars);
 //        subseq2("", chars);
@@ -55,6 +57,23 @@ public class SubSeq {
         subseq2(proc + ch, unproc);
         subseq2(proc + (int)ch, unproc);
         subseq2(proc, unproc);
+    }
+
+    public static List<String> subseqlist(String proc, String unproc){
+        if(unproc.isEmpty()){
+            List<String> list = new ArrayList<>();
+            list.add(proc);
+            return list;
+        }
+
+        List<String> res = new ArrayList<>();
+        char ch = unproc.charAt(0);
+        unproc = unproc.substring(1);
+
+        res.addAll(subseqlist(proc + ch, unproc));
+        res.addAll(subseqlist(proc, unproc));
+
+        return res;
     }
 
     public static int countsubseq2(String proc, String unproc){

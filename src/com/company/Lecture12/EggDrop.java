@@ -2,11 +2,11 @@ package com.company.Lecture12;
 
 public class EggDrop {
     public static void main(String[] args) {
-        int floors = 10;
+        int floors = 100;
         int eggs = 2;
         Integer[][] mem = new Integer[floors+1][eggs+1];
-        System.out.println(eggDrop(floors,eggs));
-        System.out.println(eggDropDP(floors,eggs,mem));
+//        System.out.println(eggDrop(floors,eggs));
+//        System.out.println(eggDropDP(floors,eggs,mem));
         System.out.println(eggDropDPitr(floors,eggs,mem));
 
     }

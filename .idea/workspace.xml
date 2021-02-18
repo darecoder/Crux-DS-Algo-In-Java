@@ -20,25 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Lecture13/CheckParanthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture18/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/AdjListGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture21/AdjListGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapGraph$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapGraph$Vertex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph$Vertex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture22/AdjMapWeightGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture8/RecursionExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture8/RecursionExamples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture9/SubSeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture9/SubSeq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture18/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture18/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture21/AdjListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture21/AdjListGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture8/RecursionExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture8/RecursionExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture9/SubSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture9/SubSeq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Maze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/EggDrop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/EggDrop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture10/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture10/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/EggDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/EggDrop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +95,7 @@
       <recent name="com.company.Doubts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckParanthesis">
+  <component name="RunManager" selected="Application.EggDrop">
     <configuration name="CheckParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Lecture13.CheckParanthesis" />
       <module name="Crux" />
@@ -123,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HollowRhom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture4.HollowRhom" />
+    <configuration name="EggDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture12.EggDrop" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture4.*" />
+          <option name="PATTERN" value="com.company.Lecture12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,18 +163,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckParanthesis" />
-      <item itemvalue="Application.HollowRhom" />
       <item itemvalue="Application.Mirror" />
       <item itemvalue="Application.SubSeq" />
       <item itemvalue="Application.SumDivideArray" />
+      <item itemvalue="Application.EggDrop" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EggDrop" />
         <item itemvalue="Application.CheckParanthesis" />
         <item itemvalue="Application.SubSeq" />
         <item itemvalue="Application.SumDivideArray" />
         <item itemvalue="Application.Mirror" />
-        <item itemvalue="Application.HollowRhom" />
       </list>
     </recent_temporary>
   </component>
@@ -282,27 +268,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="723" y="253" width="539" height="598" key="FileChooserDialogImpl" timestamp="1599676436061">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="723" y="253" width="539" height="598" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1599676436061" />
-    <state width="1785" height="249" key="GridCell.Tab.0.bottom" timestamp="1600002790324">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1785" height="249" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600002790324" />
-    <state width="1785" height="249" key="GridCell.Tab.0.center" timestamp="1600002790324">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1785" height="249" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600002790324" />
-    <state width="1785" height="249" key="GridCell.Tab.0.left" timestamp="1600002790324">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1785" height="249" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600002790324" />
-    <state width="1785" height="249" key="GridCell.Tab.0.right" timestamp="1600002790324">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1785" height="249" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600002790324" />
   </component>
 </project>

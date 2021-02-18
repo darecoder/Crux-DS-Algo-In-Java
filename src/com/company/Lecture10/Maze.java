@@ -1,7 +1,6 @@
 package com.company.Lecture10;
 
-public class
-Maze {
+public class Maze {
     public static void main(String[] args) {
 //        System.out.println(mazeCount(3,4));
 //        mazePath("", 3,4);

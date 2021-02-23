@@ -1,7 +1,5 @@
 package com.company.Lecture7;
 
-//import javafx.scene.transform.Scale;
-
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -10,24 +8,23 @@ public class Bitwise_Examples {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-//        String[] any = s.nextLine().trim().split(" ");
-//        int[] nums = new int[any.length];
-//        for (int i = 0; i < any.length ; i++) {
-//            nums[i] = Integer.parseInt(any[i]);
-//        }
-//        System.out.println(Arrays.toString(nums));
-//        System.out.println(5 & 11);
-//        System.out.println(5 | 11);
+        String[] any = s.nextLine().trim().split(" ");
+        int[] nums = new int[any.length];
+        for (int i = 0; i < any.length ; i++) {
+            nums[i] = Integer.parseInt(any[i]);
+        }
+        System.out.println(Arrays.toString(nums));
+        System.out.println(5 & 11);
+        System.out.println(5 | 11);
 
-//        int[] num2 = {2,1,8,1,8,2};
-//        int res = oddOcc(num2);
-//        System.out.println(res);
-//
-//        System.out.println(countOne(15));
-//        toggle_basic(14);
-//        toggle(14);
+        int[] num2 = {2,1,8,1,8,2};
+        int res = oddOcc(num2);
+        System.out.println(res);
+
+        System.out.println(countOne(15));
+        toggle_basic(14);
+        toggle(14);
         System.out.println(power(3,2));
-
     }
 
     public static int oddOcc(int[] nums){
@@ -39,7 +36,7 @@ public class Bitwise_Examples {
     }
 
     public static boolean isOdd( int  n){
-        return (n & 1) == 0;
+        return (n & 1) == 1;
         //If returns 1 : odd else even.
     }
 
@@ -59,7 +56,7 @@ public class Bitwise_Examples {
         int num = 0,place=1;
         while(n>0){
             if((n & 1)==0){
-                num = num + 1*place;
+                num = num + place;
             }
             place *= 2;
             n = n >> 1;

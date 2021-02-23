@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Dictionary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture11/SumDivideArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture11/SumDivideArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture10/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture10/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture11/SumDivideArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture11/SumDivideArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture7/Bitwise_Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture7/Bitwise_Examples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,20 @@
       <recent name="com.company.Doubts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dictionary">
+  <component name="RunManager" selected="Application.Bitwise_Examples">
+    <configuration name="Bitwise_Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture7.Bitwise_Examples" />
+      <module name="Crux" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Lecture7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Lecture13.CheckParanthesis" />
       <module name="Crux" />
@@ -135,19 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture9.SubSeq" />
-      <module name="Crux" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.Lecture9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SumDivideArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Lecture11.SumDivideArray" />
       <module name="Crux" />
@@ -163,18 +159,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckParanthesis" />
-      <item itemvalue="Application.SubSeq" />
       <item itemvalue="Application.SumDivideArray" />
       <item itemvalue="Application.EggDrop" />
       <item itemvalue="Application.Dictionary" />
+      <item itemvalue="Application.Bitwise_Examples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bitwise_Examples" />
         <item itemvalue="Application.Dictionary" />
         <item itemvalue="Application.SumDivideArray" />
         <item itemvalue="Application.EggDrop" />
         <item itemvalue="Application.CheckParanthesis" />
-        <item itemvalue="Application.SubSeq" />
       </list>
     </recent_temporary>
   </component>

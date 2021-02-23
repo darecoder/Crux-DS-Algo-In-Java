@@ -12,7 +12,7 @@ public class Dictionary {
 //        System.out.println(Arrays.toString(nums));
 
 //        lexo("",nums,line.length());
-        lexoNum(0,15);
+        lexoNum(0,11);
     }
 
     public static int[] freq(String chars){

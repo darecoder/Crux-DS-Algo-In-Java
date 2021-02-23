@@ -8,11 +8,9 @@ import java.util.Collections;
 
 public class SumDivideArray {
     public static void main(String[] args) {
-        int[] nums ={1 ,2 ,3 ,3 ,4 ,5};
-        divide(nums, 0,0,0,new ArrayList<Integer>(),new ArrayList<Integer>());
-
-//        sumTarget(nums,0,10,0,new ArrayList<Integer>());
-
+        int[] nums ={-1,3,7,4,2,1};
+        divide(nums, 0,0,0,new ArrayList<>(),new ArrayList<>());
+//        sumTarget(nums,0,10,0,new ArrayList<>());
     }
 
     public static void divide(int[] nums,int index, int sum1, int sum2, ArrayList<Integer> list1,ArrayList<Integer> list2){

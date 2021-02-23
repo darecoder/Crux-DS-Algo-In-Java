@@ -32,14 +32,15 @@ public class Bitwise_Examples {
 
     public static int oddOcc(int[] nums){
         int res = 0;
-        for (int i = 0; i < nums.length ; i++) {
-            res = res ^ nums[i];
+        for (int num : nums) {
+            res = res ^ num;
         }
         return res;
     }
 
     public static boolean isOdd( int  n){
-        return (n & 1) == 0;    //If returns 1 : odd else even.
+        return (n & 1) == 0;
+        //If returns 1 : odd else even.
     }
 
     public static int countOne(int n){

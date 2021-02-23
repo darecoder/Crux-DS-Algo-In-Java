@@ -21,10 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Maze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/EggDrop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture12/EggDrop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture10/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture10/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/EggDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/EggDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture10/Dictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture11/SumDivideArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture11/SumDivideArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture10/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture10/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture11/SumDivideArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture11/SumDivideArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <recent name="com.company.Doubts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EggDrop">
+  <component name="RunManager" selected="Application.Dictionary">
     <configuration name="CheckParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Lecture13.CheckParanthesis" />
       <module name="Crux" />
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EggDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture12.EggDrop" />
+    <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture10.Dictionary" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture12.*" />
+          <option name="PATTERN" value="com.company.Lecture10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mirror" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture4.Mirror" />
+    <configuration name="EggDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture12.EggDrop" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture4.*" />
+          <option name="PATTERN" value="com.company.Lecture12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,18 +163,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckParanthesis" />
-      <item itemvalue="Application.Mirror" />
       <item itemvalue="Application.SubSeq" />
       <item itemvalue="Application.SumDivideArray" />
       <item itemvalue="Application.EggDrop" />
+      <item itemvalue="Application.Dictionary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dictionary" />
+        <item itemvalue="Application.SumDivideArray" />
         <item itemvalue="Application.EggDrop" />
         <item itemvalue="Application.CheckParanthesis" />
         <item itemvalue="Application.SubSeq" />
-        <item itemvalue="Application.SumDivideArray" />
-        <item itemvalue="Application.Mirror" />
       </list>
     </recent_temporary>
   </component>

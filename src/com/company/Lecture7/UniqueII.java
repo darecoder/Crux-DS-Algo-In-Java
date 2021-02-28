@@ -16,12 +16,7 @@ public class UniqueII {
 
     public static void get2NonRepeatingNos(int[] arr)
     {
-        int Xor = arr[0];
-        int res;
-        int i;
-        int x = 0;
-        int y = 0;
-
+        int Xor = arr[0], res, i, x = 0, y;
         for(i = 1; i < arr.length; i++) {
             Xor ^= arr[i];
         }
@@ -34,10 +29,9 @@ public class UniqueII {
         }
 
         int mask = (1 << pos);
-
-        for(i = 0; i < arr.length; i++) {
-            if ((arr[i] & mask) == 1) {
-                x = x ^ arr[i];
+        for(int num : arr) {
+            if ((num & mask) == 1) {
+                x = x ^ num;
             }
         }
 

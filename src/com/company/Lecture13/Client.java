@@ -6,7 +6,6 @@ public class Client {
         Human ankit = new Human(ekta);    //copy constructor
 
         System.out.println(ankit.name);
-
 //        System.out.println(ekta.name);
 //        System.out.println(ekta.age);
 

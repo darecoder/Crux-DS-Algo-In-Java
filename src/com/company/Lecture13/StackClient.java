@@ -1,7 +1,5 @@
 package com.company.Lecture13;
 
-import com.company.Lecture15.Stack;
-
 public class StackClient {
     public static void main(String[] args) {
         Stack s = new Stack();

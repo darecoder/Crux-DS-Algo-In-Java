@@ -1,7 +1,4 @@
 package com.company.Lecture13;
-
-import com.company.Lecture15.Stack;
-
 public class DynamicStack extends Stack {
     @Override
     public void push(int item) {

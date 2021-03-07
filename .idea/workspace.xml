@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture7/UniqueII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture7/UniqueII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture13/DynamicStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture13/DynamicStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture13/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture13/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture13/StackClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture13/StackClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture15/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture15/StackClient.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,7 +1,7 @@
 package com.company.Lecture13;
 
 public class Stack {
-    private int[] data;
+    protected int[] data;
     private static final int DEFAULT_SIZE = 10;
     private int top = -1;
 

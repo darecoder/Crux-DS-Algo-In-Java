@@ -19,57 +19,56 @@ public class Heap<T extends Comparable<T>> {
 
     public void add(T value){
         list.add(value);
-
-        upheap(list.size() - 1);
+        upHeap(list.size() - 1);
     }
 
-    private void upheap(int index){
+    private void upHeap(int index){
         if(index == 0){
             return;
         }
-
         int parent = parent(index);
-
         if(list.get(parent).compareTo(list.get(index)) <= 0){
             return;
         }
-
         T temp = list.get(index);
         list.set(index,list.get(parent));
         list.set(parent,temp);
-
-        upheap(parent);
+        upHeap(parent);
     }
 
-    private void downheap(int index){
+    private void downHeap(int index){
         int min = index;
-
         int left = left(index);
         int right = right(index);
-
         if(left < list.size() && list.get(left).compareTo(list.get(min)) < 0){
             min = left;
         }
-
         if(right < list.size() && list.get(right).compareTo(list.get(min)) < 0 ){
             min = right;
         }
-
-        if(index != min){
+        if(min != index){
             T temp = list.get(index);
             list.set(index,list.get(min));
             list.set(min,temp);
+            downHeap(min);
         }
     }
 
     public T remove(){
-        T value = list.get(0);
-
-        if(list.size() > 1){
-            list.set(0,list.remove(list.size()-1));
-            downheap(0);
+        if (list.isEmpty()) {
+            return null;
         }
-
+        if (list.size() == 1) {
+            return list.remove(0);
+        }
+        T value = list.get(0);
+        list.set(0,list.remove(list.size()-1));
+        downHeap(0);
         return value;
+    }
+
+    @Override
+    public String toString() {
+        return list.toString();
     }
 }

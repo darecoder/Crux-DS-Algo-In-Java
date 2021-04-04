@@ -8,6 +8,7 @@ public class DynamicCircularQueue extends CircularQueue{
             for (int i = 0; i < data.length; i++) {
                 temp[i] = data[(i + this.front) % data.length];
             }
+            this.data = temp;
         }
 
         super.enqueue(item);

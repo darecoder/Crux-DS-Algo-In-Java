@@ -41,6 +41,7 @@ public class CircularQueue {
             size++;
             return;
         }
+        System.out.println("Queue overflow!!");
     }
 
     public Integer dequeue(){

@@ -21,11 +21,39 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture13/DynamicStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture13/DynamicStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture13/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture13/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture13/StackClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture13/StackClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture15/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture15/StackClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/DynamicStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/DynamicStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/StackClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture13/StackClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/CircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/CircularQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/DynamicCircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture14/DynamicCircularQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture15/StackClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture16/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/LinkedListGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture17/LinkedListGeneric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashSet$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashSet$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashTable$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashTable$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/CustomHashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Questions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture20/Questions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Hollow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Hollow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Mirror.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture4/Mirror.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/Bitwise_Examples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/Bitwise_Examples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/UniqueII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux/com/company/Lecture7/UniqueII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture13/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture13/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture14/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture14/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture14/DynamicCircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture14/DynamicCircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture16/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture16/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture17/LinkedListGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture17/LinkedListGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture20/CustomHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture20/CustomHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture20/CustomHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture20/CustomHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture20/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture20/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture20/Questions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture20/Questions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture4/Hollow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture4/Swastik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture4/HollowRhom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture4/HollowRhombus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture4/Mirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture4/Diamond.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +124,7 @@
       <recent name="com.company.Doubts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bitwise_Examples">
+  <component name="RunManager" selected="Application.HollowRhombus">
     <configuration name="Bitwise_Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Lecture7.Bitwise_Examples" />
       <module name="Crux" />
@@ -110,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture13.CheckParanthesis" />
+    <configuration name="Diamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture4.Diamond" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture13.*" />
+          <option name="PATTERN" value="com.company.Lecture4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture10.Dictionary" />
+    <configuration name="HollowRhombus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture4.HollowRhombus" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture10.*" />
+          <option name="PATTERN" value="com.company.Lecture4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EggDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture12.EggDrop" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture20.Main" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture12.*" />
+          <option name="PATTERN" value="com.company.Lecture20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumDivideArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture11.SumDivideArray" />
+    <configuration name="Swastik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture4.Swastik" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture11.*" />
+          <option name="PATTERN" value="com.company.Lecture4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +191,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CheckParanthesis" />
-      <item itemvalue="Application.SumDivideArray" />
-      <item itemvalue="Application.EggDrop" />
-      <item itemvalue="Application.Dictionary" />
       <item itemvalue="Application.Bitwise_Examples" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Diamond" />
+      <item itemvalue="Application.Swastik" />
+      <item itemvalue="Application.HollowRhombus" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HollowRhombus" />
+        <item itemvalue="Application.Diamond" />
+        <item itemvalue="Application.Swastik" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Bitwise_Examples" />
-        <item itemvalue="Application.Dictionary" />
-        <item itemvalue="Application.SumDivideArray" />
-        <item itemvalue="Application.EggDrop" />
-        <item itemvalue="Application.CheckParanthesis" />
       </list>
     </recent_temporary>
   </component>

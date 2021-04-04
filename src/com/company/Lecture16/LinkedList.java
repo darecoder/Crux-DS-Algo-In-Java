@@ -95,13 +95,12 @@ public class LinkedList {
     public String findMid(){
         Node node = head;
         Node temp = head;
-        while(temp.next != null && temp.next.next != null){
+        while(temp.next != null &&
+                temp.next.next != null){
             node = node.next;
             temp = temp.next.next;
         }
-
-        String mid = node.value;
-        return mid;
+        return node.value;
     }
 
     public void reverseList(){
@@ -133,24 +132,18 @@ public class LinkedList {
         LinkedList list = new LinkedList();
         while (h1 != null && h2 != null){
             if(h1.value.compareTo(h2.value) < 0){
-                // shift from h1
                 list.insertLast(h1.value);
                 h1 = h1.next;
             }else{
-                // shift from h2
                 list.insertLast(h2.value);
                 h2 = h2.next;
             }
         }
-
         while (h1 != null){
-            // shift from h1
             list.insertLast(h1.value);
             h1 = h1.next;
         }
-
         while (h2 != null){
-            // shift from h2
             list.insertLast(h2.value);
             h2 = h2.next;
         }

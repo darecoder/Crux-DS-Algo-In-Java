@@ -21,8 +21,7 @@ public class LinkedListGeneric <T extends Comparable<T>> { //Comparable interfac
     }
 
     public void insertFirst(T value){
-        Node node = new Node(value, head);
-        head = node;
+        head = new Node(value, head);
 
         if(size == 0){
             tail = head;
@@ -106,34 +105,34 @@ public class LinkedListGeneric <T extends Comparable<T>> { //Comparable interfac
         return value;
     }
     
-//    public static LinkedListGeneric merge(LinkedListGeneric first, LinkedListGeneric second){
-//         Node h1 = first.head;
-//         Node h2 = second.head;
-//
-//         LinkedListGeneric list = new LinkedListGeneric();
-//
-//         while(h1 != null && h2 != null){
-//             if(h1.value.compareTo(h2.value) < 0){
-//                 list.insertLast(h1.value);
-//                 h1 = h1.next;
-//             }else{
-//                 list.insertLast(h2.value);
-//                 h2 = h2.next;
-//             }
-//         }
-//
-//        while (h1 != null){
-//            list.insertLast(h1.value);
-//            h1 = h1.next;
-//        }
-//
-//        while (h2 != null){
-//            list.insertLast(h2.value);
-//            h2 = h2.next;
-//        }
-//
-//        return list;
-//    }
+    public LinkedListGeneric<T> merge(LinkedListGeneric<T> first, LinkedListGeneric<T> second){
+         Node h1 = first.head;
+         Node h2 = second.head;
+
+         LinkedListGeneric<T> list = new LinkedListGeneric<>();
+
+         while(h1 != null && h2 != null){
+             if(h1.value.compareTo(h2.value) < 0){
+                 list.insertLast(h1.value);
+                 h1 = h1.next;
+             }else{
+                 list.insertLast(h2.value);
+                 h2 = h2.next;
+             }
+         }
+
+        while (h1 != null){
+            list.insertLast(h1.value);
+            h1 = h1.next;
+        }
+
+        while (h2 != null){
+            list.insertLast(h2.value);
+            h2 = h2.next;
+        }
+
+        return list;
+    }
 
     public Node get(int index){
         Node node = head;

@@ -1,6 +1,5 @@
 package com.company.Lecture13;
 
-import com.company.Lecture5.ArrayIntro;
 
 public class Queue {
     private int[] data;

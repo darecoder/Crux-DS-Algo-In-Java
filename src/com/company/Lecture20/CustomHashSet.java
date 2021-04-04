@@ -20,17 +20,14 @@ public class CustomHashSet<K> {
 
     public void add(K key){
         int index = Math.abs(key.hashCode() % array.size());
-
         LinkedList<Node> list = array.get(index);
         for (Node node : list){
             if(node.key.equals(key)){
                 return;
             }
         }
-
         size++;
         list.add(new Node(key));
-
         if((((float)size)/array.size()) > .5){
             rehash();
         }
@@ -67,9 +64,7 @@ public class CustomHashSet<K> {
 
     public boolean remove(K key){
         int index = Math.abs(key.hashCode() % array.size());
-
         LinkedList<Node> list = array.get(index);
-
         Node target = null;
         for (Node node : list){
             if(node.key.equals(key)){
@@ -77,11 +72,9 @@ public class CustomHashSet<K> {
                 break;
             }
         }
-
         if(target == null){
             return false;
         }
-
         list.remove(target);
         size--;
         return true;

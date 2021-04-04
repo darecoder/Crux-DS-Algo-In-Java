@@ -2,11 +2,9 @@ package com.company.Lecture4;
 
 import java.util.Scanner;
 
-public class HollowRhom {
+public class HollowRhombus {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-
-        int n = s.nextInt();
+        int n = 4;
         int row = 1;
         while ( row <= n){
             int  sp = 1;

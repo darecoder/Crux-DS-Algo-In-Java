@@ -8,7 +8,9 @@ public class Main {
 //
 //        dict.put("apple","a sweet red fruit");
 //        dict.put("mango","king of fruits");
-//
+        String s1 ="apple";
+        String s2 = "mango";
+        System.out.println(s1.hashCode() + " " + s2.hashCode());
 //        System.out.println(dict.get("apple"));
 //
 //        dict.put("apple","a sour red fruit");

@@ -15,8 +15,7 @@ public class LongSubseq {
         if(flen == 0 || slen == 0){
             return 0;
         }
-
-        int count = 0;
+        int count;
         if(f.charAt(flen-1) == s.charAt(slen-1)){
             count = 1 + lcs(f,s,flen-1,slen-1);
         }else{
@@ -24,7 +23,6 @@ public class LongSubseq {
             int left = lcs(f,s,flen,slen-1);
             count = Math.max(right,left);
         }
-
         return count;
     }
 

@@ -15,11 +15,9 @@ public class EggDrop {
         if(floors == 0){
             return 0;
         }
-
         if(eggs == 1){
             return floors;
         }
-
         int minimum = floors;
         for (int f = 1; f <= floors; f++) {
             int down = eggDrop(f - 1,eggs -1);
@@ -37,22 +35,19 @@ public class EggDrop {
         if(floors == 0){
             return 0;
         }
-
         if(eggs == 1){
             return floors;
         }
-
         int minimum = floors;
         for (int f = 1; f <= floors; f++) {
-            int down = eggDrop(f - 1,eggs -1);
-            int up = eggDrop(floors - f,eggs);
+            int down = eggDropDP(f - 1,eggs -1, mem);
+            int up = eggDropDP(floors - f,eggs, mem);
 
             int max = 1 + Math.max(down,up);
             if(max < minimum){
                 minimum = max;
             }
         }
-
         mem[floors][eggs] = minimum;
         return mem[floors][eggs];
     }

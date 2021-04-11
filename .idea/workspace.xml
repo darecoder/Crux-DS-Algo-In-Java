@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture19/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture19/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture19/HeapClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture19/HeapClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/EggDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/EggDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/LongSubseq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/LongSubseq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/ZeroOneKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/ZeroOneKnapsack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,11 +162,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Diamond" />
-      <item itemvalue="Application.Swastik" />
-      <item itemvalue="Application.HollowRhombus" />
       <item itemvalue="Application.HeapClient" />
+      <item itemvalue="Application.HollowRhombus" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Swastik" />
     </list>
     <recent_temporary>
       <list>

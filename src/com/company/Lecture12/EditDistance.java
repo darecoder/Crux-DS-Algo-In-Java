@@ -17,7 +17,6 @@ public class EditDistance {
         if(slen == 0){
             return flen;
         }
-
         int count = 0;
         if(f.charAt(flen - 1) == s.charAt(slen - 1)){
             count = editDist(f,s,flen-1,slen-1);
@@ -54,7 +53,6 @@ public class EditDistance {
     }
 
     public static int editDistDPitr(String f,String s,Integer[][] mem){
-
         int flen,slen = 0;
         for (flen = 0; flen <= f.length(); flen++) {
             for (slen = 0; slen <= s.length(); slen++) {
@@ -73,7 +71,6 @@ public class EditDistance {
                 }
             }
         }
-
         return mem[flen][slen];
     }
 }

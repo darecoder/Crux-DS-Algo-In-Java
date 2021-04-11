@@ -3,13 +3,11 @@ package com.company.Lecture21;
 import java.util.LinkedList;
 
 public class EdgeListGraph <E> {
-
     public LinkedList<Vertex> vertices = new LinkedList<Vertex>();
     public LinkedList<Edge> edges = new LinkedList<Edge>();
 
     private class Vertex{
         private E value;
-
         public Vertex(E value){
             this.value = value;
         }
@@ -25,10 +23,9 @@ public class EdgeListGraph <E> {
         }
     }
 
-    //We need to traverse all edges to fint neighbours of a particular vertex
-    // for adding a vertex we to traverse whole vertex list
+    //We need to traverse all edges to find neighbours of a particular vertex
+    // for adding a vertex we need to traverse whole vertex list
     // for adding edge we have to traverse both vertices and edge list
-
     public void addVertex(E value){
         if(find(value) == null){
             vertices.add(new Vertex(value));

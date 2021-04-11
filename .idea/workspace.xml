@@ -21,10 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/EditDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/EggDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/EggDrop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/LongSubseq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/LongSubseq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/ZeroOneKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/ZeroOneKnapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture21/AdjListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture21/AdjListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture21/EdgeListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture21/EdgeListGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

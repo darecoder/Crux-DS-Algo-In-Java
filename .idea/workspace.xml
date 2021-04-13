@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture21/AdjListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture21/AdjListGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture21/EdgeListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture21/EdgeListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1TgLaUYUUo0dsUR5ZC8eCkcjaMt" />
   <component name="ProjectViewState">

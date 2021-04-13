@@ -1,21 +1,17 @@
 package com.company.Lecture22;
 
 import java.util.*;
-
 import static java.util.Comparator.*;
 
 public class AdjMapWeightGraph<E> {
-
-    private Map<E, Vertex> vertices = new HashMap<E, Vertex>();
+    private Map<E, Vertex> vertices = new HashMap<>();
 
     private class Vertex{
         E value;
-        Map<Vertex, Integer> neighbours = new HashMap<Vertex, Integer>();
-
+        Map<Vertex, Integer> neighbours = new HashMap<>();
         public Vertex(E value) {
             this.value = value;
         }
-
         public void addNeighbour(Vertex vertex, Integer weight){
             neighbours.put(vertex,weight);
         }
@@ -25,7 +21,6 @@ public class AdjMapWeightGraph<E> {
         private Vertex start;
         private Vertex end;
         private  Integer weight;
-
         public Edge(Vertex start, Vertex end, Integer weight) {
             this.start = start;
             this.end = end;
@@ -69,7 +64,6 @@ public class AdjMapWeightGraph<E> {
         Set<Vertex> visited = new HashSet<Vertex>();
 
         PriorityQueue<Edge> queue = new PriorityQueue<Edge>(comparingInt(o -> o.weight));
-
         visited.add(start);
         for (Vertex end : start.neighbours.keySet()){
             int weight = start.neighbours.get(end);
@@ -87,7 +81,6 @@ public class AdjMapWeightGraph<E> {
                     if (!visited.contains(temp_e)){
                         int weight = temp_s.neighbours.get(temp_e);
                         queue.add(new Edge(temp_s, temp_e, weight));
-
                     }
                 }
             }
@@ -118,17 +111,14 @@ public class AdjMapWeightGraph<E> {
         if(f != null && s != null && f != s){    //f comparing to s to deny self loops
             f.neighbours.remove(second);
             s.neighbours.remove(first);
-
         }
     }
 
     private Map<Vertex, Vertex> generateParents(){
         Map<Vertex,Vertex> parents = new HashMap<Vertex, Vertex>();
-
         for(Vertex vertex : vertices.values()){
             parents.put(vertex, null);
         }
-
         return parents;
     }
 
@@ -136,7 +126,6 @@ public class AdjMapWeightGraph<E> {
         while (parents.get(vertex) != null){
             vertex = parents.get(vertex);
         }
-
         return vertex;
     }
 
@@ -148,7 +137,6 @@ public class AdjMapWeightGraph<E> {
             parents.put(first, second);
             return true;
         }
-
         return false;
     }
 
@@ -229,8 +217,10 @@ public class AdjMapWeightGraph<E> {
                 if (map.containsKey(padosi.value)) {
                     DjPair pair = map.get(padosi.value);
                     int oldcost = pair.cost;
-                    /* source se current vertex tak ka cost + current vertex se padosi tak jaane ka cost */
-                    int newcost = current.cost + vertices.get(current.endVertex).neighbours.get(padosi);
+                    /* source se current vertex tak ka cost +
+                    current vertex se padosi tak jaane ka cost */
+                    int newcost = current.cost +
+                            vertices.get(current.endVertex).neighbours.get(padosi);
                     if (newcost < oldcost) {
                         /* Heap se pichla cost vala pair remove kar
                         do kyunki naya cost jaada chhota hai ab */

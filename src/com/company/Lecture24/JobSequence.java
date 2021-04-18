@@ -29,14 +29,11 @@ public class JobSequence {
             jobs.add(new Job(job_names[i], deadlines[i], values[i]));
         }
 
-        jobs.sort(new Comparator<Job>() {
-            @Override
-            public int compare(Job o1, Job o2) {
-                if(o1.deadline != o2.deadline){
-                    return o1.deadline - o2.deadline;
-                }else {
-                    return o2.value - o1.value;
-                }
+        jobs.sort((o1, o2) -> {
+            if(o1.deadline != o2.deadline){
+                return o1.deadline - o2.deadline;
+            }else {
+                return o2.value - o1.value;
             }
         });
     }

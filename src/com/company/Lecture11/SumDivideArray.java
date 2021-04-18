@@ -13,7 +13,8 @@ public class SumDivideArray {
 //        sumTarget(nums,0,10,0,new ArrayList<>());
     }
 
-    public static void divide(int[] nums,int index, int sum1, int sum2, ArrayList<Integer> list1,ArrayList<Integer> list2){
+    public static void divide(int[] nums, int index, int sum1, int sum2,
+                              ArrayList<Integer> list1,ArrayList<Integer> list2){
         if( index == nums.length){
             if(sum1 == sum2){
                 System.out.println(list1 + " : " + list2);
@@ -33,7 +34,8 @@ public class SumDivideArray {
 
     }
 
-    public static void sumTarget(int[] nums, int index, int target, int sum, ArrayList<Integer> list){
+    public static void sumTarget(int[] nums, int index, int target,
+                                 int sum, ArrayList<Integer> list){
         if(index == nums.length){
             if(sum == target && list.size() == 3){
                 System.out.println(list);

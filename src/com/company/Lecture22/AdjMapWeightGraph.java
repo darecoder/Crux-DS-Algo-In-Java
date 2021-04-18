@@ -28,6 +28,32 @@ public class AdjMapWeightGraph<E> {
         }
     }
 
+    private Map<Vertex, Vertex> generateParents(){
+        Map<Vertex,Vertex> parents = new HashMap<Vertex, Vertex>();
+        for(Vertex vertex : vertices.values()){
+            parents.put(vertex, null);
+        }
+        return parents;
+    }
+
+    private Vertex find(Vertex vertex, Map<Vertex, Vertex> parents){
+        while (parents.get(vertex) != null){
+            vertex = parents.get(vertex);
+        }
+        return vertex;
+    }
+
+    private boolean Union(Vertex first,Vertex second, Map<Vertex, Vertex> parents){
+        first = find(first, parents);
+        second = find(second, parents);
+
+        if(first != second) {
+            parents.put(first, second);
+            return true;
+        }
+        return false;
+    }
+
     public Integer kruskal(){
         ArrayList<Edge> list = new ArrayList<Edge>();
         for(Vertex start : vertices.values()){
@@ -112,32 +138,6 @@ public class AdjMapWeightGraph<E> {
             f.neighbours.remove(second);
             s.neighbours.remove(first);
         }
-    }
-
-    private Map<Vertex, Vertex> generateParents(){
-        Map<Vertex,Vertex> parents = new HashMap<Vertex, Vertex>();
-        for(Vertex vertex : vertices.values()){
-            parents.put(vertex, null);
-        }
-        return parents;
-    }
-
-    private Vertex find(Vertex vertex, Map<Vertex, Vertex> parents){
-        while (parents.get(vertex) != null){
-            vertex = parents.get(vertex);
-        }
-        return vertex;
-    }
-
-    private boolean Union(Vertex first,Vertex second, Map<Vertex, Vertex> parents){
-        first = find(first, parents);
-        second = find(second, parents);
-
-        if(first != second) {
-            parents.put(first, second);
-            return true;
-        }
-        return false;
     }
 
     public void DFT(E value){

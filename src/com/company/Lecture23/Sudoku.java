@@ -26,12 +26,10 @@ public class Sudoku {
             display(board);
             return;
         }
-
         if(col == board.length){
             sudoku(board,row+1, 0);
             return;
         }
-
         if(board[row][col] == 0){
             for (int i = 1; i <= 9; i++) {
                 if(isSafe(board, row, col, i)){
@@ -60,16 +58,13 @@ public class Sudoku {
                 return false;
             }
         }
-
         for (int i = 0; i < board.length; i++) {
             if(board[i][col] == n){
                 return false;
             }
         }
-
         int r_block = row/3;
         int c_block = col/3;
-
         for (int r = r_block*3; r < (r_block+1)*3; r++) {
             for (int c = c_block*3; c < (c_block+1)*3; c++) {
                 if (board[r][c] == n){
@@ -77,7 +72,6 @@ public class Sudoku {
                 }
             }
         }
-
         return true;
     }
 }

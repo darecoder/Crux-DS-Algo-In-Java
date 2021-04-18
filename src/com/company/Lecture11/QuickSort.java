@@ -1,7 +1,6 @@
 package com.company.Lecture11;
 
 import com.company.Lecture5.ArrayIntro;
-
 import java.util.Arrays;
 
 public class QuickSort {
@@ -15,12 +14,9 @@ public class QuickSort {
         if(start >= end){
             return;
         }
-
         int p = pivot(nums,start,end);
-
         quicksort(nums,start,p-1);
         quicksort(nums,p+1,end);
-
     }
 
     public static int pivot(int[] nums,int start,int end){

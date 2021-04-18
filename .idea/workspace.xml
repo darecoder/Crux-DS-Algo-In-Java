@@ -21,8 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="769e5517-d2ad-4ac7-964d-4765a2eda167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture11/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture11/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture12/CountPallindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture12/CountPallindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture22/AdjMapWeightGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture23/Sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture23/Sudoku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture24/JobSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture24/JobSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lecture24/LongPallindromeSubseq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lecture24/LongPallindromeSubseq.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +105,7 @@
       <recent name="com.company.Doubts" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapClient">
+  <component name="RunManager" selected="Application.LongPallindromeSubseq">
     <configuration name="Diamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Lecture4.Diamond" />
       <module name="Crux" />
@@ -141,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lecture20.Main" />
+    <configuration name="LongPallindromeSubseq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lecture24.LongPallindromeSubseq" />
       <module name="Crux" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lecture20.*" />
+          <option name="PATTERN" value="com.company.Lecture24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,16 +175,16 @@
       <item itemvalue="Application.Diamond" />
       <item itemvalue="Application.HeapClient" />
       <item itemvalue="Application.HollowRhombus" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Swastik" />
+      <item itemvalue="Application.LongPallindromeSubseq" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongPallindromeSubseq" />
         <item itemvalue="Application.HeapClient" />
         <item itemvalue="Application.HollowRhombus" />
         <item itemvalue="Application.Diamond" />
         <item itemvalue="Application.Swastik" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

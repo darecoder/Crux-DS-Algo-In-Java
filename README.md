@@ -9,16 +9,17 @@ This repository contains all the lectures source code including basic Java, OOPs
 * Loops and Decision constructs
 * Functions and operators
 * Arrays, multi-dimensional arrays and dynamic arrays
-* String and String Buffer
+* String and StringBuilder
 * Introduction to Recursion
-* Classical Recursion Problems
+* Classic Recursion Problems
 * Backtracking
 * Dynamic Programming
 * Time and Space Complexity
 * OOPs 
-  * Classes and Objects
+  * Classes, interfaces and Objects
   * Exceptions 
   * Data member modifiers
+  * Abstraction
   * Encapsulation
   * Inheritance 
   * Polymorphism
